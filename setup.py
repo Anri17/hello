@@ -1,6 +1,6 @@
 from distutils.core import setup
 setup(name='hello',
-      version='1.1',
+      version='1.2',
       description='Hello Distribution Module',
       author='André Almeida',
       author_email='andralmeida1999@gmail.com',

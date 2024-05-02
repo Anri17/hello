@@ -4,4 +4,10 @@ def say_hi(name = None):
     else:
         print('Hi.')
 
-__version__ = '1.1'
+def say_hello(name_first, name_last = None):
+    if name_last:
+        print("Hello, {name_first} {name_last}")
+    else:
+        print("Hello, {name_first}")
+
+__version__ = '1.2'
